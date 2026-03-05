@@ -1,0 +1,21 @@
+{
+  "name": "claude-discord-bridge",
+  "version": "1.0.0",
+  "description": "Discord Bot that bridges Claude Code agents to Discord channels",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "setup": "tsx src/setup.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
